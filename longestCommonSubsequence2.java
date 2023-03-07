@@ -17,7 +17,7 @@ if(arr[m-1][n-1]!=0)return arr[m-1][n-1];
 
 if(P.charAt(m-1)==Q.charAt(n-1))
 {
-arr[m-1][n-1] 1 + Subsequence(P,Q,m-1,n-1);
+arr[m-1][n-1] = 1 + Subsequence(P,Q,m-1,n-1);
 return arr[m-1][n-1];
 }
 else 
