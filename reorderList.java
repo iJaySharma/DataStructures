@@ -49,11 +49,11 @@ ListNode next2 = curr2.next;
 
 curr1.next = curr2;
 curr2.next = next1;
-System.out.println("curr1"+curr1.key+"curr2"+curr2.key);
+
 
 curr1 = next1;
 curr2 = next2;
-System.out.println("curr1"+curr1.key+"curr2"+curr2.key);
+
 }
 
 }
