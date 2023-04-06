@@ -37,7 +37,7 @@ inOrder(root.right,k,list);
 } 
 public static void main(String[] gg)
 {
-BinaryTree tree = new BinaryTree();
+bstTree tree = new bstTree();
 tree.root = new Node(5);
 tree.root.left = new Node(3);
 tree.root.right = new Node(7);
