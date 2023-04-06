@@ -1,0 +1,13 @@
+class Solution
+{
+public static int grid(int[][] num)
+{
+
+}
+
+public static void main(String[] gg)
+{
+int[][] num = new int[]{{1,1,1,1,1,1,1,0},{1,0,0,0,0,1,1,0},{1,0,1,0,1,1,1,0},{1,0,0,0,0,1,0,1},{1,1,1,1,1,1,1,0}};
+System.out.print(grid(num));
+}
+}
