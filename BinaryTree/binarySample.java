@@ -1,36 +1,35 @@
 import java.io.*;
 import java.util.*;
-class Node  
+class TreeNode  
 {
-int key;
-Node left = null;
-Node right = null;
-public Node(int key)
+int val;
+TreeNode left = null;
+TreeNode right = null;
+public TreeNode(int val)
 {
-this.key = key;
+this.val = val;
 }
 }
 
 class BinaryTree
 {
 
-Node root;
+TreeNode root;
 public BinaryTree()
 {
 root = null;
 }
 
 
-
 public static void main(String[] gg)
 {
 BinaryTree tree = new BinaryTree();
-tree.root = new Node(1);
-tree.root.left = new Node(2);
-tree.root.right = new Node(3);
-tree.root.left.left = new Node(4);
-tree.root.left.right = new Node(5);
-tree.root.right.left = new Node(6);
-tree.root.right.right = new Node(7); 
+tree.root = new TreeNode(1);
+tree.root.left = new TreeNode(2);
+tree.root.right = new TreeNode(3);
+tree.root.left.left = new TreeNode(4);
+tree.root.left.right = new TreeNode(5);
+tree.root.right.left = new TreeNode(6);
+tree.root.right.right = new TreeNode(7); 
 }
 }
